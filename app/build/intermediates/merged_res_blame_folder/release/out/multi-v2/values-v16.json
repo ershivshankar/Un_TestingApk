@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.keystone.agent.app-mergeReleaseResources-9:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\SHIV SHANKAR\\.gradle\\caches\\transforms-3\\53a6499c7b64e4bfcc92e3118779d5d5\\transformed\\core-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

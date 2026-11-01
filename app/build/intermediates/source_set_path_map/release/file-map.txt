@@ -1,0 +1,15 @@
+com.keystone.agent.app-jetified-play-services-basement-18.1.0-0 C:\Users\SHIV SHANKAR\.gradle\caches\transforms-3\30babd2ea702f874f088854454a5438c\transformed\jetified-play-services-basement-18.1.0\res
+com.keystone.agent.app-jetified-firebase-messaging-23.4.0-1 C:\Users\SHIV SHANKAR\.gradle\caches\transforms-3\5341876e7093ea4d9cb082aa9fb31093\transformed\jetified-firebase-messaging-23.4.0\res
+com.keystone.agent.app-core-1.2.0-2 C:\Users\SHIV SHANKAR\.gradle\caches\transforms-3\53a6499c7b64e4bfcc92e3118779d5d5\transformed\core-1.2.0\res
+com.keystone.agent.app-coordinatorlayout-1.0.0-3 C:\Users\SHIV SHANKAR\.gradle\caches\transforms-3\958f277fcb38fe0c0e70f620efd00af9\transformed\coordinatorlayout-1.0.0\res
+com.keystone.agent.app-jetified-firebase-common-20.4.2-4 C:\Users\SHIV SHANKAR\.gradle\caches\transforms-3\e7a53da6b17bcdf9b85e3a451adf8261\transformed\jetified-firebase-common-20.4.2\res
+com.keystone.agent.app-jetified-play-services-base-18.0.1-5 C:\Users\SHIV SHANKAR\.gradle\caches\transforms-3\f31af310ec9944af93ecbac096e8d2be\transformed\jetified-play-services-base-18.0.1\res
+com.keystone.agent.app-pngs-6 F:\unlock tool\KeyStone-Agent\app\build\generated\res\pngs\release
+com.keystone.agent.app-res-7 F:\unlock tool\KeyStone-Agent\app\build\generated\res\processReleaseGoogleServices
+com.keystone.agent.app-resValues-8 F:\unlock tool\KeyStone-Agent\app\build\generated\res\resValues\release
+com.keystone.agent.app-packageReleaseResources-9 F:\unlock tool\KeyStone-Agent\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.keystone.agent.app-packageReleaseResources-10 F:\unlock tool\KeyStone-Agent\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.keystone.agent.app-merged-not-compiled-resources-11 F:\unlock tool\KeyStone-Agent\app\build\intermediates\merged-not-compiled-resources\release
+com.keystone.agent.app-merged_res-12 F:\unlock tool\KeyStone-Agent\app\build\intermediates\merged_res\release
+com.keystone.agent.app-main-13 F:\unlock tool\KeyStone-Agent\app\src\main\res
+com.keystone.agent.app-release-14 F:\unlock tool\KeyStone-Agent\app\src\release\res

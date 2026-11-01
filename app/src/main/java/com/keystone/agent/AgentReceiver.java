@@ -40,7 +40,7 @@ public class AgentReceiver extends FirebaseMessagingService {
         ComponentName admin = new ComponentName(this, AgentAdmin.class);
         if (dpm != null && dpm.isAdminActive(admin)) {
             // Small delay so FCM ack is sent before device wipes
-            new Handler(Looper.getMainLooper()).postDelayed(dpm::wipeData, 1500);
+            new Handler(Looper.getMainLooper()).postDelayed(() -> dpm.wipeData(0), 1500);
         }
     }
 

@@ -1,0 +1,45 @@
+// App-level build.gradle
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 34
+    namespace "com.keystone.agent"
+
+    defaultConfig {
+        applicationId "com.keystone.agent"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        // Bake relay URL and secret key into the APK at build time
+        buildConfigField "String", "RELAY_URL",      "\"https://keystone-relay.onrender.com\""
+        buildConfigField "String", "ACTION_SECRET",  "\"KS2026\""
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            // Obfuscate code — harder to reverse engineer
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+    implementation 'com.google.firebase:firebase-messaging'
+}
